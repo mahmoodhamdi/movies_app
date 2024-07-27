@@ -10,7 +10,7 @@ import 'package:movies_app/movies/presentation/controller/movies_state.dart';
 import 'package:movies_app/movies/presentation/screens/movie_detail_screen.dart';
 
 class NowPlayingComponent extends StatelessWidget {
-  const NowPlayingComponent({Key? key}) : super(key: key);
+  const NowPlayingComponent({super.key});
 
   @override
   Widget build(BuildContext context) {

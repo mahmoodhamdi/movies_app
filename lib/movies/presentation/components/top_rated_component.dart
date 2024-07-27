@@ -9,7 +9,7 @@ import 'package:movies_app/movies/presentation/controller/movies_state.dart';
 import 'package:shimmer/shimmer.dart';
 
 class TopRatedComponent extends StatelessWidget {
-  const TopRatedComponent({Key? key}) : super(key: key);
+  const TopRatedComponent({super.key});
 
   @override
   Widget build(BuildContext context) {

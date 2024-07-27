@@ -15,7 +15,7 @@ import 'package:shimmer/shimmer.dart';
 class MovieDetailScreen extends StatelessWidget {
   final int id;
 
-  const MovieDetailScreen({Key? key, required this.id}) : super(key: key);
+  const MovieDetailScreen({super.key, required this.id});
 
   @override
   Widget build(BuildContext context) {
@@ -33,8 +33,8 @@ class MovieDetailScreen extends StatelessWidget {
 
 class MovieDetailContent extends StatelessWidget {
   const MovieDetailContent({
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {
